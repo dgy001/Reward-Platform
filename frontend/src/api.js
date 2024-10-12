@@ -6,7 +6,6 @@ const api = axios.create({
   baseURL: 'http://localhost:5000',
 });
 
-
 // 请求拦截器，添加 token 到请求头
 api.interceptors.request.use(
   (config) => {
